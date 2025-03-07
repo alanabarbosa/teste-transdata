@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: #D5D5D5;
+}
+
+main {
+    background-color: #D2D2D2;
+    
+}
+
+header{
+    background: #03337F;
+    color: #F5F5F5;
+    text-align: center;
+    padding: 8px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 28px;
+    display: none;
+}
+
+#op {
+    display: none;
+    cursor: pointer;
+}
+
+.sectionForm {
+    background: #757575;
+    border: 2px solid #111;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    flex-direction: column;
+    padding: 20px 0;
+    margin: 80px auto;
+    padding: 30px;;
+}
+
+.secreen {
+    background: #03337F;
+    border-radius: 8px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    color: #F5F5F5;
+    font-size: 30px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+input,
+button {
+    border: none;
+    background: #F5F5F5;
+    padding: 8px 30px;
+    border-radius: 3px;
+    display: block;
+    border: 1px solid #F5F5F5
+}
+
+.boxResult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding:20px;
+}
+
+#result {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+@media (max-width: 600px) {
+    #result {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 400px) {
+    #result {
+        grid-template-columns: 1fr;
+    }
+}
+
+#result p {
+    grid-column: 1 / -1;
+    font-size: 18px;
+}
+
+.teclado {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.teclado button {
+    border: 1px solid #f5f5f5;
+    background: #757575;
+    cursor: pointer;
+    color: #111;
+    padding: 10px 20px;
+    color: #F5F5F5;
+}
+
+.teclado button:hover {
+    background: #444343;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+    bordeR: 1px solid #03337F;
+    box-shadow: 0 0 0 2px #2458ac
+}
+
+input:BLur {
+    border: none;
+}
+
+#calc {
+    background: #52a306;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+
+#delete {
+    background: #7f1203;
+    color: #F5F5F5;
+    cursor: pointer;
+}
+
+#clear {
+    background: #e4bb07;
+    color: #111;
+    cursor: pointer;
+}
+
+.buttons #calc:hover {
+    background: #418104;
+}
+
+.buttons #delete:hover {
+    background: #690f03;
+}
+
+.buttons #clear:hover {
+    background: #c9a508;
+}

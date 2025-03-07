@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Eletrônico</title>
+    <link rel="stylesheet" href="assets/styles/styles.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Caixa Eletrônico</h1>
+        </header>
+        <section class="container">
+            <div class="sectionForm">
+                <div class="secreen">
+                    <form action="#">
+                        <label for="value">
+                            Digite o valor a ser sacado:
+                        </label>
+                        <input type="text" id="value" min="1" placeholder="Digite um valor">
+                        <div class="buttons">
+                            <button id="clear" type="button">Limpar</button>
+                            <button id="delete" type="button">Deletar</button>
+                            <button id="calc" type="button">Calcular notas</button>
+                        </div>
+                        <div class="teclado">
+                            <button id="1">1</button>
+                            <button id="2">2</button>
+                            <button id="3">3</button>
+                            <button id="4">4</button>
+                            <button id="4">5</button>
+                            <button id="6">6</button>
+                            <button id="7">7</button>
+                            <button id="8">8</button>
+                            <button id="8">9</button>
+                            <button id="0">0</button>
+                        </div>
+                    </form>
+                    <section class="boxResult">
+                        <h2>Resultado:</h2>
+                        <button id="op">Fazer outra operação</button>
+                        <div id="result">
+                            <div id="figure"></div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/script/script.js"></script>
+</body>
+</html>
