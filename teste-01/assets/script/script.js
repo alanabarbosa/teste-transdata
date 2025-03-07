@@ -17,11 +17,6 @@ const calcNotas = (event) => {
         return;
     }
 
-    if (valueInput.length > 9) {
-        document.getElementById("result").innerText = "O número inserido é muito grande!";
-        return;
-    }
-
     const banknotes = {
         notes: [
           { price: 20, icon: "assets/images/20_reais.jpg" },
