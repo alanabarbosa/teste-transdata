@@ -51,11 +51,11 @@ CopiarEditar
 │
 ├── assets
 
-│   ├── images  # Contém as imagens utilizadas no teste
+│       ├── images  # Contém as imagens utilizadas no teste
 
-│   ├── scripts        # Contém os arquivos JavaScript
+│       ├── scripts        # Contém os arquivos JavaScript
 
-│   └── styles         # Contém os arquivos CSS
+│       └── styles         # Contém os arquivos CSS
 
 │
 
