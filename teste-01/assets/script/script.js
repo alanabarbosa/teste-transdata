@@ -17,6 +17,11 @@ const calcNotas = (event) => {
         return;
     }
 
+    if (valueInput.length > 9) {
+        document.getElementById("result").innerText = "O número inserido é muito grande!";
+        return;
+    }
+
     const banknotes = {
         notes: [
           { price: 20, icon: "assets/images/20_reais.jpg" },
@@ -60,7 +65,6 @@ const calcNotas = (event) => {
             }
 
             remainingValue %= banknotes.notes[i].price;
-            console.log(" remainingValue %= banknotes.notes[i].price;",  remainingValue %= banknotes.notes[i].price)
         }
     }
 }
@@ -85,6 +89,7 @@ const refresh = () => {
 }
 
 const getKeyboard = (event) => {
+    event.preventDefault();
     const convertNumber = parseInt(event.target.id);
     document.getElementById("value").value += convertNumber;
 }
@@ -96,3 +101,6 @@ btnRefresh.addEventListener("click", refresh);
 btnKeyboard.forEach((item, index) => {
     item.addEventListener("click", getKeyboard)
 })
+window.onload = () => {
+    document.getElementById("value").focus();
+};

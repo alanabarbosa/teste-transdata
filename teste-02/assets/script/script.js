@@ -43,3 +43,6 @@ const verify = (event) => {
 }
 
 btnVerify.addEventListener("click", verify)
+window.onload = () => {
+    document.getElementById("value").focus();
+};
