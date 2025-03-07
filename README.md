@@ -14,7 +14,7 @@ Este repositório contém três testes práticos de front-end, organizados nas p
 3.  O teste será carregado no navegador, e você poderá interagir com ele.
     
 
-[Visualizar Teste 01](https://caixa-eletronico-teste.netlify.app/teste-01)
+[Visualizar Teste 01](https://teste-transdata.netlify.app/teste-01)
 
 ### Teste 02
 
@@ -25,7 +25,7 @@ Este repositório contém três testes práticos de front-end, organizados nas p
 3.  O teste será carregado e estará pronto para interação.
     
 
-[Visualizar Teste 02](https://caixa-eletronico-teste.netlify.app/teste-02)
+[Visualizar Teste 02](https://teste-transdata.netlify.app/teste-02)
 
 ### Teste 03
 
@@ -36,7 +36,7 @@ Este repositório contém três testes práticos de front-end, organizados nas p
 3.  O teste será exibido, permitindo que você execute as ações necessárias.
     
 
-[Visualizar Teste 03](https://caixa-eletronico-teste.netlify.app/teste-03)
+[Visualizar Teste 03](https://teste-transdata.netlify.app/teste-03)
 
 ## Estrutura do Projeto
 
