@@ -78,7 +78,6 @@ form {
     padding: 20px;
 }
 
-input,
 button {
     border: none;
     background: #F5F5F5;
@@ -88,6 +87,11 @@ button {
     border: 1px solid #F5F5F5
 }
 
+textarea {
+    width: 100%;
+}
+
+textarea,
 button {
     background-color: #1e0738;
     color: #F5F5F5;
@@ -118,9 +122,27 @@ button:hover {
     background: #444343;
 }
 
-input:focus {
+textarea:focus {
     border: none;
     outline: none;
     bordeR: 1px solid #8205a8;
     box-shadow: 0 0 0 2px #8c19af
+}
+
+
+
+@media (max-width: 600px) {
+    .container {
+        height: 100vh;
+    }
+
+    .sectionForm{
+        height: 100vh;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    label {
+        font-size: 22px;
+    }
 }

@@ -1,0 +1,46 @@
+
+# Teste Prático Front-End
+
+Este repositório contém três testes práticos de front-end organizados nas pastas `teste-01`, `teste-02` e `teste-03`. Cada um dos testes pode ser aberto diretamente no navegador, seguindo os passos abaixo.
+
+## Como abrir os testes
+
+### Teste 01
+
+1.  Navegue até a pasta `teste-01`.
+    
+2.  Abra o arquivo `index.html` no navegador. Isso pode ser feito clicando duas vezes no arquivo ou arrastando-o para uma nova aba no navegador.
+    
+3.  O teste será carregado no navegador e estará pronto para interação.
+    
+
+### Teste 02
+
+1.  Navegue até a pasta `teste-02`.
+    
+2.  Abra o arquivo `index.html` no navegador.
+    
+3.  O teste será carregado e estará pronto para interação.
+    
+
+### Teste 03
+
+1.  Navegue até a pasta `teste-03`.
+    
+2.  Abra o arquivo `index.html` no navegador.
+    
+3.  O teste será exibido, permitindo que você execute as ações necessárias.
+    
+
+## Estrutura do Projeto
+
+Cada um dos testes segue a mesma estrutura:
+
+/teste-xx
+│
+├── assets
+│   ├── images         # Contém as imagens utilizadas no teste
+│   ├── script         # Arquivos JavaScript para manipulação
+│   └── styles         # Arquivos CSS para estilização
+│
+└── index.html         # Página principal do teste
