@@ -47,6 +47,7 @@ bash
 CopiarEditar
 
 /teste-xx
+
 │
 ├── assets
 
