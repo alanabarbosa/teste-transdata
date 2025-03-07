@@ -33,6 +33,10 @@ h2 {
     display: none;
 }
 
+img {
+    transition: all .5s;
+}
+
 #op {
     display: none;
     cursor: pointer;
@@ -98,12 +102,15 @@ button {
     justify-content: center;
     gap: 20px;
     padding:20px;
+    transition: all .5s;
 }
+
 
 #result {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    transition: all .5s;
 }
 
 @media (max-width: 600px) {
@@ -127,6 +134,10 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 10px;
+}
+
+.teclado button:last-child {
+    grid-column: 1 / -1;
 }
 
 .teclado button {

@@ -5,6 +5,7 @@ const title = document.querySelector("h2");
 const form = document.querySelector("form");
 const btnRefresh = document.getElementById("op");
 const btnKeyboard = document.querySelectorAll(".teclado button");
+const boxResult = document.querySelector(".boxResult");
 
 const calcNotas = (event) => {
     event.preventDefault();
@@ -77,9 +78,10 @@ const deleteNotas = () => {
 const refresh = () => {
     form.style.display = 'flex';
     document.getElementById('result').innerHTML = '';
-    document.querySelector(".figure").innerHTML = '';
+    //boxResult.innerHTML = '';
     title.style.display = 'none';
-    btnRefresh.style.display = 'none';    
+    btnRefresh.style.display = 'none';
+    calcNotas();    
 }
 
 const getKeyboard = (event) => {
