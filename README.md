@@ -42,21 +42,10 @@ Este repositório contém três testes práticos de front-end, organizados nas p
 
 Cada um dos testes segue a seguinte estrutura:
 
-bash
-
-CopiarEditar
-
-/teste-xx
-
-│
-├── assets
-
-│       ├── images  # Contém as imagens utilizadas no teste
-
-│       ├── scripts        # Contém os arquivos JavaScript
-
-│       └── styles         # Contém os arquivos CSS
-
-│
-
-└── index.html         # Página principal do teste`
+```bash
+/teste-xx │ 
+├── assets │ 
+	├── images # Contém as imagens utilizadas no teste │ 
+	├── scripts # Contém os arquivos JavaScript │ 
+	└── styles # Contém os arquivos CSS │ 
+└── index.html # Página principal do teste
